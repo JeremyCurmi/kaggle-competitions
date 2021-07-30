@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.svm import LinearSVC, SVC
 from sklearn.feature_selection import chi2
 from sklearn.datasets import load_iris, load_digits
-from feature_selection import select_features_from_model, univariate_feature_selection, rfe_feature_selection
+from source_code.feature_selection import select_features_from_model, univariate_feature_selection, rfe_feature_selection
 
 X, y = load_iris(return_X_y=True, as_frame=True)
 
